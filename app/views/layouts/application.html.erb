@@ -8,8 +8,45 @@
   <link href='http://fonts.googleapis.com/css?family=Open+Sans:400' rel='stylesheet' type='text/css'>
 </head>
 <body>
+	<div id="page" class="center">
+		<div id="header" class="center">
+			<div id="logo">
+				<img src="/images/logo.png" alt="rss feed" />
+			</div>
+			<div id="buttons-list">
+				<ul class="list-inline buttons">
+					<li><%= link_to "ABOUT", root_path %></li>
+					<li><%= link_to "SIGN UP", signup_path %></li>
+				</ul>
+				
+			</div>
+		</div>
+		<div id="body">
+			<div id="image-carousel">
+				<img class="active" src="/images/banner1.jpg" alt="My image"/>
+				<img src="/images/banner2.jpg" alt="My image"/>
+			</div>
+			
+			<% if notice %>
+			  <p class="alert alert-success"><%= notice %></p>
+			<% end %>
+			
+			<% if alert %>
+			  <p class="alert alert-danger"><%= alert %></p>
+			<% end %>
+			
 
-<%= yield %>
+			<%= yield %>
+
+
+		</div>
+		<div class="footer">
+				<div id="facebook">
+					<a href="#"> <img src="/images/facebook.png"/> </a>
+				</div>
+			</div>
+	</div>
+
 
 </body>
 </html>
