@@ -173,7 +173,7 @@ p.big {
 }
 
 .new-user {
-	height: 600px;
+	height: 1160px;
 	position:relative;
 	margin:0 auto;
 	background: url(../images/background1.jpg);
@@ -245,4 +245,62 @@ p.big {
 	width: 308px;
 	height: 50px;
 	background: url(../images/signup.png);
+}
+
+.tree-image {
+	position: absolute;
+	top: 700px;
+	left: 600px;
+}
+
+.price {
+	position: absolute;
+	top: 60px;
+	left: 590px;
+	font-size:120px;
+	font-family: 'Open Sans', sans-serif;
+	color: #8CA29D;
+}
+
+.script {
+	position: absolute;
+	top: 230px;
+	left: 510px;
+	font-family: 'Open Sans', sans-serif;
+	color: #8CA29D;
+	text-align: justify;
+	font-stretch: expanded;
+}
+
+.big-script {
+	font-size: 35px;
+}
+
+.lil-script {
+	position: absolute;
+	top: 280px;
+	left: 590px;
+	font-family: 'Open Sans', sans-serif;
+	color: #8CA29D;
+}
+
+.training-vid {
+	height: 650px;
+	position:relative;
+	margin:0 auto;
+	background: url(../images/background1.jpg);
+}
+
+.video {
+	position: absolute;
+	top: 120px;
+	left: 90px;
+}
+
+.current-user {
+	position: absolute;
+	color: white;
+	font-family: 'Open Sans', sans-serif;
+	left: 1150px;
+	top: 40px;
 }
