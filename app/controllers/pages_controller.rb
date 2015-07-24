@@ -6,4 +6,8 @@ class PagesController < ApplicationController
 	def signup
 		
 	end
+
+	def training
+		
+	end
 end

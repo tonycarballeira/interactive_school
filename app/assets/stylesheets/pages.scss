@@ -37,7 +37,9 @@ body {
 
 #buttons-list {
 	display:inline-block;
-	padding: 15px 0px 10px 385px;
+	position: absolute;
+	top: 20px;
+	left: 900px;
 }
 
 .buttons li{
@@ -158,7 +160,7 @@ p.big {
 .signup-form {
 	position: absolute;
 	width: 390px;
-	height: 350px;
+	height: 400px;
 	top: 95px;
 	left: 40px;
 	background: #151515;
@@ -166,7 +168,7 @@ p.big {
 	border-radius: 5px;
 	border-color: grey;
 	border-style: solid;
-	padding-left: 15px;
+	padding-left: 20px;
 	padding-top: 50px;
 }
 
@@ -215,4 +217,32 @@ p.big {
 	font-size: 35px;
 	color: grey;
 	position: absolute;
+}
+
+.sub {
+	position: absolute;
+	top: 430px;
+	width: 308px;
+	height: 50px;
+	background: url(../images/signup.png);
+}
+
+
+
+.alert-div {
+	position: absolute;
+	right: 410px;
+	top: 3px;
+	font-family: 'Open Sans', sans-serif;
+	color: #752672;
+}
+
+.notice {
+	list-style-type: none;
+}
+
+.submit {
+	width: 308px;
+	height: 50px;
+	background: url(../images/signup.png);
 }
